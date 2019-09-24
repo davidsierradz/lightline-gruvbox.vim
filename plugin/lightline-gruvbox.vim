@@ -97,6 +97,7 @@ if s:style == 'plain'
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4],
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 else
+	" THIS
 	let s:p.normal.middle = [
 				\ [s:mono4, s:mono1, s:c_mono4, s:c_mono1]]
 	if s:style == 'hard_left'
@@ -104,13 +105,20 @@ else
 					\ [s:mono0, s:green, s:c_mono0, s:c_green],
 					\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 	else
+		" THIS
 		let s:p.normal.left = [
 					\ [s:mono0, s:green, s:c_mono0, s:c_green],
-					\ [s:mono5, s:mono3, s:c_mono5, s:c_mono3]]
+					\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
 	endif
+	" THIS
 	let s:p.normal.right = [
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4],
+				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4],
 				\ [s:mono0, s:mono4, s:c_mono0, s:c_mono4]]
+	let s:p.normal.error = [
+				\ [s:mono0, s:red, s:c_mono0, s:c_red]]
+	let s:p.normal.warning = [
+				\ [s:mono0, s:orange, s:c_mono0, s:c_orange]]
 endif
 
 let s:p.inactive.middle = [
