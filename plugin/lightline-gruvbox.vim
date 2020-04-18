@@ -68,7 +68,7 @@ else
 	let s:red      = '#9d0006'
 	let s:green    = '#79740e'
 	let s:blue     = '#076678'
-	let s:orange   = '#af3a03'
+	let s:orange   = '#b57614'
 	let s:c_red    = 88
 	let s:c_green  = 100
 	let s:c_blue   = 24
